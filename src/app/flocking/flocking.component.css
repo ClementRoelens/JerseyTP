@@ -1,0 +1,47 @@
+select {
+    display:none;
+    width:200px;
+    margin:15px auto 10px auto;
+}
+
+img {
+    width: 60px
+}
+
+#flockArea , #badgeArea {
+    border-bottom : solid 1px black;
+}
+
+#flockArea{
+min-height:40px;
+}
+
+#badges , #badgesSelector {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+
+#badgeArea {
+    height:90px;
+}
+
+#badgesSelector input {
+    margin: 0 24px
+}
+
+span {
+    padding: 8px;
+    font-weight: bold;
+    border: 1px #aaa solid;
+    text-transform: uppercase;
+    cursor:pointer;
+    margin-right:5px;
+}
+
+.selected {
+    color: #ff2850;
+    border-color: #ff2850;
+    
+}

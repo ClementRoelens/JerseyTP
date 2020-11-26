@@ -1,0 +1,24 @@
+<h1>TP juvejersey</h1>
+<div id="app">
+  <app-image 
+  [flockingMode]="flockingMode" 
+  [selectedPlayer]="selectedPlayer">
+  </app-image>
+  <section id="right">
+    <h2>Juventus Home Authentic Jersey 2020/21</h2>
+    <app-flocking 
+    (flockingMode)="flockingChange($event)" 
+    (selectedPlayer)="selectedPlayerChange($event)"
+    (badgesNumber)="badgesNumberChange($event)">
+    </app-flocking>
+
+    <app-price
+    [badgesNumber]="badgesNumber"
+    [flockingMode]="flockingMode"
+    >
+    </app-price>
+
+
+  </section>
+
+</div>

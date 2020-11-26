@@ -1,0 +1,31 @@
+#largeImageArea {
+    position:relative;
+}
+
+#flocking {
+    position:absolute;
+    font-size:2em;
+    width:210px;
+    left:calc(50% - 105px);
+    top:10%;
+    text-align:center;
+}
+
+h1 {
+    font-size:1.2em;
+    margin-bottom:10px;
+}
+
+h2 {
+    font-size:3.5em;
+    margin-top:0;
+}
+
+img {
+    width: 500px
+}
+
+#thumbs img {
+    width: 75px;
+    cursor:pointer;
+}

@@ -1,0 +1,12 @@
+select {
+    width:60px;
+    height:30px;
+    margin:auto;
+}
+
+section {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom : solid 1px black;
+}

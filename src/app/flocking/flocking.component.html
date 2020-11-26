@@ -1,0 +1,21 @@
+<h3>Flocking</h3>
+<div id="flockArea">
+    <span (click)="desactivateFlocking($event)" class="selected">No flock</span>
+    <span (click)="activateFlocking($event)">Players</span>
+    <select (change)="selectedPlayerChange($event)">
+        <option *ngFor="let player of players" value="player">{{ player }}</option>
+    </select>
+</div>
+<h3>Badges</h3>
+<div id="badgeArea">
+    <div id="badges">
+        <img src="assets/images/badge1.jpg" alt="">
+        <img src="assets/images/badge2.png" alt="">
+        <img src="assets/images/badge3.jpg" alt="">
+    </div>
+    <div id="badgesSelector">
+        <input (click)="checkedBadge($event)" type="checkbox" />
+        <input (click)="checkedBadge($event)" type="checkbox" />
+        <input (click)="checkedBadge($event)" type="checkbox" />
+    </div>
+</div>

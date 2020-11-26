@@ -1,0 +1,20 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+#right{
+    display:flex;
+    flex-direction:column;
+    width:220px;
+}
+
+app-image, app-flocking {
+    float: left;
+    padding: 4px
+}
+

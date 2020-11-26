@@ -1,0 +1,10 @@
+<div id="largeImageArea">
+    <img [src]=selectedImage />
+    <div id="flocking">
+        <h1></h1>
+        <h2></h2>
+    </div>
+</div>
+<div id="thumbs">
+    <img (click)="onImageChange($event.target.src)" *ngFor="let image of images" [src]=image/>
+</div>
